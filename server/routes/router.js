@@ -46,7 +46,6 @@ router.get('/products/:product_id/related', (req, res) => {
 // QUESTION & ANSWER ENDPOINTS
 // https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/questions/?product_id=${req.params.question_id}&page=1&count=100
 router.get('/qa/questions/:question_id', (req, res) => {
-  console.log(req.params);
   axios.get(`http://localhost:3001/qa/questions/?product_id=${req.params.question_id}&page=1&count=100`, {
     headers: { Authorization: authToken },
   })
