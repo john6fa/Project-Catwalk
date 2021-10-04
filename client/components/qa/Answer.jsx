@@ -58,9 +58,9 @@ const Answer = ({ answer }) => {
       </div>
       <div className="qa-photo-container flex-container">
         { /* <img src={`${photos[0]}`} alt="Lamp" width="32" height="32" /> */
-        photos.map((photo) => (
-          <img className="qa-photo" src={photo} alt="product" />
-        ))
+          photos.map((photo) => (
+            <img className="qa-photo" src={photo.url} alt="product" />
+          ))
         }
       </div>
       <div className="qa-answer-metadata flex-container">

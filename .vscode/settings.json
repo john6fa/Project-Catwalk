@@ -1,6 +1,8 @@
 {
   "cSpell.words": [
-    "iesafe"
+    "Catwalk",
+    "iesafe",
+    "Project"
   ],
   "jest.jestCommandLine": "npm run test --"
 }

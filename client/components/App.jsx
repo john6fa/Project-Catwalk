@@ -114,7 +114,7 @@ class App extends React.Component {
 
           <QuestionsAndAnswersWidget color={this.state.color} />
 
-          <RatingsReviewsWidget reviews={this.state.allReviews} reviewMeta={this.state.reviewMeta}/>
+          <RatingsReviewsWidget reviews={this.state.allReviews} reviewMeta={this.state.reviewMeta} />
         </ProductContext.Provider>
       </div>
     );
